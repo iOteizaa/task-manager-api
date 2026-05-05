@@ -1,44 +1,41 @@
-# Maven
+HELP.md
 target/
+.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# Maven wrapper
-.mvn/wrapper/maven-wrapper.jar
-
-# Config files
-application.properties
-application.yml
-
-# Logs
-*.log
-logs/
-
-# IDEs
-.idea/
-*.iml
-*.iws
-*.ipr
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
 .settings
-.factorypath
 .springBeans
 .sts4-cache
 
-# OS
-.DS_Store
-Thumbs.db
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Build tools
+### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-/build/
+build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# VS Code
+### VS Code ###
 .vscode/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
