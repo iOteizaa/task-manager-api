@@ -18,7 +18,7 @@ REST API developed with Spring Boot for task management (full CRUD), applying go
 
 ### Backend
 - Java 17
-- Spring Boot
+- Spring Boot 3.5.14
 - Spring Web
 - Spring Data JPA
 - Hibernate
